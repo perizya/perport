@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+	  
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- Latest compiled and minified CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			href="./CSS/please.css"
+		/>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript">
+				/**/
+				function validate()
+				{
+					var FirstName = document.getElementById("FirstName")
+					var Email = document.getElementById("email")
+					var Message = document.getElementById("message")
+
+					if(FirstName.value==""|| Email.value==""|| Message.value=="")
+					{
+
+						alert("ERROR! Imcomplete Field")
+					}
+					
+					else
+					{
+					   alert("Your response has been submitted")
+					}
+				}
+
+		</script>
+
+		<link
+			rel="preload"
+			href="Bocklin.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+
+		<style>
+			.page2-btn {
+				font-size: 2vh;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body style="background-color: #faf1db">
+		<!-- Page 1 -->
+		<div class="container-fluid vh-100">
+			<!-- Page 1 Navbar -->
+			<div
+				class="px-0 px-md-3 px-lg-5 pt-3 d-flex justify-content-between align-items-center"
+			>
+				<!-- Button 1 -->
+				<button
+					type="button"
+					class="btn btn-outline-dark"
+					style="color: darkolivegreen"
+				>
+					<a
+						href="#contactme"
+						style="text-decoration: none; color: darkolivegreen"
+						>Contact Me</a
+					>
+				</button>
+				<!-- Text -->
+				<textbox style="font-size: 16px; color: darkolivegreen" id="mywork">
+					Perizya Zack
+				</textbox>
+				<!-- Button 2 -->
+				<button
+					type="button"
+					class="btn btn-outline-dark"
+					style="color: darkolivegreen"
+				>
+					<a href="#mywork" style="text-decoration: none; color: darkolivegreen"
+						>My Work</a
+					>
+				</button>
+			</div>
+
+			<hr style="border-top: 2px solid rgb(124, 149, 81); opacity: 1" />
+
+			<div
+				class="row d-flex justify-content-center align-items-center"
+				style="
+					height: 85%;
+					/* padding-left: 30%;
+          padding-right: 30%; */
+					font-size: 7vw;
+					color: darkolivegreen;
+				"
+			>
+				<!-- <span>Portfolio</span> -->
+				<div
+					style="
+						width: 50%;
+						text-align: center;
+						border-radius: 48%;
+						border: 1px solid darkolivegreen;
+						height: 13vw;
+						padding-top: 1vh;
+					"
+				>
+					Portfolio 2022
+				</div>
+			</div>
+
+			<!-- Page 1 Footer  -->
+			<div
+				style="
+					height: 5%;
+					width: 100%;
+					text-align: center;
+					font-size: 2vmin;
+					color: darkolivegreen;
+				"
+			></div>
+		</div>
+
+		<!-- Page 2 -->
+		<div
+			class="container-fluid vh-100"
+			style="
+				background-image: url('./IMAGES/top\ half\ website\ image\ leaf.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			"
+		>
+			<div
+				class="px-0 px-md-3 px-lg-5 pt-3 d-flex justify-content-between align-items-center"
+			>
+				<!-- Button 1 -->
+				<button type="button" class="btn btn-outline-light">
+					<a href="#contactme" style="text-decoration: none; color: #faf1db"
+						>Contact Me</a
+					>
+				</button>
+				<!-- Text -->
+				<textbox style="font-size: 16px; color: #faf1db" id="mywork">
+					2022
+				</textbox>
+				<!-- Button 2 -->
+				<button type="button" class="btn btn-outline-light">
+					<a href="#aboutme" style="text-decoration: none; color: #faf1db"
+						>About Me</a
+					>
+				</button>
+			</div>
+
+			<hr style="border-top: 2px solid #faf1db; opacity: 1" />
+			<!-- div in the center of the screen -->
+			<div class="row d-flex align-items-center vh-100">
+				<div class="col-5 d-flex justify-content-center">
+					<div
+						class="px-44"
+						style="
+							font-size: 10vmin;
+							text-align: center;
+							color: #faf1db;
+							font-weight: bold;
+						"
+					>
+						My <br />
+						Work
+					</div>
+				</div>
+				<div class="col-7">
+					<div class="row mb-5">
+						<div class="col d-flex justify-content-center">
+							<a href="#mywork">
+								<button
+									type="button"
+									class="btn btn-outline-dark page2-btn"
+									style="
+										color: darkolivegreen;
+										border-radius: 48%;
+										font-size: 1.7vw;
+									"
+								>
+									<a
+										href="./HTML/projectpage.html"
+										style="text-decoration: none; color: darkolivegreen"
+									>
+										Newsletter
+									</a>
+								</button>
+							</a>
+						</div>
+						<div class="col">
+							<button
+								type="button"
+								class="btn btn-outline-dark page2-btn"
+								style="
+									color: darkolivegreen;
+									border-radius: 48%;
+									font-size: 1.7vw;
+								"
+							>
+								<a
+									href="./HTML/java.html"
+									style="text-decoration: none; color: darkolivegreen"
+								>
+									Java Games
+								</a>
+							</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col d-flex justify-content-center">
+							<button
+								type="button"
+								class="btn btn-outline-dark page2-btn"
+								style="
+									color: darkolivegreen;
+									border-radius: 48%;
+									font-size: 1.7vw;
+								"
+							>
+								Vinyl Cover
+							</button>
+						</div>
+						<div class="col">
+							<button
+								type="button"
+								class="btn btn-outline-dark page2-btn"
+								style="
+									color: darkolivegreen;
+									border-radius: 48%;
+									font-size: 1.7vw;
+								"
+							>
+								Book Cover
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Page 3 -->
+		<div class="container-fluid vh-100">
+			<!-- Page 3 Navbar -->
+			<div
+				class="px-0 px-md-3 px-lg-5 pt-3 d-flex justify-content-between align-items-center"
+			>
+				<!-- Button 1 -->
+				<button
+					type="button"
+					class="btn btn-outline-dark"
+					style="color: darkolivegreen"
+				>
+					<a
+						href="#contactme"
+						style="text-decoration: none; color: darkolivegreen"
+						>Contact Me</a
+					>
+				</button>
+				<!-- Text -->
+				<textbox style="font-size: 16px; color: darkolivegreen" id="aboutme">
+					2022
+				</textbox>
+				<!-- Button 2 -->
+				<button
+					type="button"
+					class="btn btn-outline-dark"
+					style="color: darkolivegreen"
+				>
+					<a href="#mywork" style="text-decoration: none; color: darkolivegreen"
+						>My Work</a
+					>
+				</button>
+			</div>
+			<hr style="border-top: 2px solid rgb(124, 149, 81); opacity: 1" />
+
+			<div class="row d-flex align-items-center vh-100">
+				<div class="col-5 d-flex justify-content-center">
+					<div
+						class="px-7"
+						style="
+							font-size: 10vmin;
+							text-align: center;
+							color: darkolivegreen;
+							font-weight: bold;
+							padding-bottom: 8%;
+						"
+						id="aboutme"
+					>
+						About <br />
+						Me
+					</div>
+				</div>
+
+				<div class="col-7">
+					<div class="row mb-1">
+						<div class="col d-flex justify-content-center">
+							<div
+								style="
+									width: 95%;
+									text-align: center;
+
+									border-radius: 50%;
+									border: 1px solid darkolivegreen;
+									height: 20vw;
+									margin: 10%;
+								"
+							>
+								<div
+									class="col-7 px-2 py-3 py-md-5"
+									style="
+										width: 100%;
+										text-align: center;
+										color: darkolivegreen;
+										font-size: 1.5vw;
+										height: 18vw;
+									"
+								>
+									<br />
+									Hello! I'm Perizya Zack. <br />
+
+									I'm a student studying design at Atlas Skilltech University.
+									<br />
+									I'm interested in illustrations and graphic design.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- page 4-->
+		<div
+			class="container-fluid vh-100"
+			style="
+				background-image: url('./IMAGES/bgimagebottomhalf.JPG');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center;
+			"
+		>
+			<!-- page 4 navbar-->
+			<div
+				class="px-0 px-md-3 px-lg-5 pt-3 d-flex justify-content-between align-items-center"
+			>
+				<!-- Button 1 -->
+				<button type="button" class="btn btn-outline-light">
+					<a href="#aboutme" style="text-decoration: none; color: #faf1db"
+						>About Me</a
+					>
+				</button>
+				<!-- Text -->
+				<textbox style="font-size: 16px; color: darkolivegreen" id="contactme">
+					2022
+				</textbox>
+				<!-- Button 2 -->
+				<button type="button" class="btn btn-outline-light">
+					<a href="#mywork" style="text-decoration: none; color: #faf1db"
+						>My Work</a
+					>
+				</button>
+			</div>
+
+			<hr style="border-top: 2px solid #faf1db; opacity: 1" />
+			<div
+				class="row d-flex justify-content-center align-items-center"
+				style="
+					/* padding-left: 30%;
+              padding-right: 30%; */
+
+					color: #faf1db;
+				"
+			>
+				<img
+					src="./IMAGES/contactmecircle.png"
+					style="width: 60rem; position: relative"
+				/>
+
+				<div
+					class="container m-3 col p-4 border-dark"
+					style="position: absolute"
+				>
+					<div
+						class="Head1 extramargin text-center"
+						style="font-size: 6vmin; margin-top: 0%; color: darkolivegreen"
+						;
+					>
+						Contact Me
+					</div>
+					<form>
+					<div
+						class="container-fluid row m-1 p-1 justify-content-center text-center"
+					>
+						<input
+							type="text"
+							name="FirstName"
+							id="FirstName"
+							placeholder="Name"
+							;
+							style="
+								width: 40vmin;
+								height: 4vmin;
+								color: darkolivegreen;
+								border-color: darkolivegreen;
+								background-color: #faf1db;
+								border-width: 1.5px;
+							"
+						/>
+					</div>
+					<div
+						class="container-fluid row m-1 p-1 justify-content-center text-center"
+					>
+						<input
+							type="email"
+							name="UserEmail"
+							id="email"
+							placeholder="Email"
+							style="
+								width: 40vmin;
+								height: 4vmin;
+								color: darkolivegreen;
+								border-color: darkolivegreen;
+								background-color: #faf1db;
+								border-width: 1.5px;
+							"
+						/>
+					</div>
+					<div
+						class="container-fluid row m-1 p-1 justify-content-center text-center"
+					>
+						<input
+							type="text"
+							name="Message"
+							id="message"
+							placeholder="Message"
+							style="
+								width: 40vmin;
+								height: 4vmin;
+								color: darkolivegreen;
+								border-color: darkolivegreen;
+								border-width: 1.5px;
+								background-color: #faf1db;
+							"
+						/>
+					</div>
+
+					<div
+						class="container-fluid row mx-1 justify-content-center text-center"
+					>
+						<button
+							onclick="validate()"
+							type="submit"
+							class=" "
+							style="
+								width: 40vmin;
+								height: 4vmin;
+								color: darkolivegreen;
+								border-color: darkolivegreen;
+								background-color: #faf1db;
+							"
+						>
+							Send
+						</button>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

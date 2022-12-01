@@ -1,0 +1,21 @@
+.hl {
+    border: 2px solid darkolivegreen;
+    color: darkolivegreen;
+    height: 4px;
+    width: 70vw;
+    margin-left: 4vw;
+}
+
+@font-face {
+    font-family: 'Bocklin';
+    src: url('Bocklin.woff2') format('woff2'),
+        url('Bocklin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    font-family: Bocklin;
+
+}
